@@ -29,7 +29,7 @@ export class AppComponent {
             console.log(`Value of HttpEventType.DownloadProgress is: ${event.type}`);
             break;
           case HttpEventType.UploadProgress:
-            console.log(`Value of HttpEventType.DownloadProgress is: ${event.type}`);
+            console.log(`Value of HttpEventType.UploadProgress is: ${event.type}`);
             break;
           default:
             console.log(`Value of some other event is: ${event.type}`);
